@@ -13,7 +13,7 @@ const Docs = () => {
   }, []);
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-6 p-6">
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-6 p-6 ">
       {products.map((product) => (
         <Card key={product.id} product={product} />
       ))}
